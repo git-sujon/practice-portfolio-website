@@ -3,16 +3,21 @@ body {
     margin: 0;
     padding: 0;
 }
-section {
+
+.container {
     display: flex;
+    margin-bottom: 150px;
 }
 
 h1 {
     font-size: 50px;
 }
+h2 {
+    font-size: 40px;
+}
 
 .orange-text {
-    color: green;
+    color: orange;
 }
 .text-side {
     width: 50%;
@@ -20,11 +25,13 @@ h1 {
 }
 
 .image-side {
-    width: 80%;
+    width: 100%;
+    padding-left: 2%;
 }
 
+
 .btn {
-    background-color: green;
+    background-color: orange;
     padding: 10px 20px;
     border-radius: 10px;
     color: white;
@@ -32,8 +39,35 @@ h1 {
     font-weight: 700;
 }
 
-.section-bg {
+.section-top {
     background-image: url(/img-bg/top-banner.png);
     background-repeat: no-repeat;
     background-size: cover;
+}
+.section-mid {
+    background-image: url(/img-bg/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:right ;
+
+}
+.exp-side {
+    width: 40%;
+    box-shadow: 10px 20px 20px gray;
+    margin-left: 5%;
+    padding: 2%;
+}
+
+.section-bottom {
+    background-image: url(/img-bg/exp-bg.png);
+    background-repeat: no-repeat;
+}
+#exp-border-right {
+    border-left: 5px solid orangered;
+}
+#exp-border-left {
+    border-right: 5px solid rgb(255, 238, 0);
+}
+
+footer p {
+    text-align: center;
 }
